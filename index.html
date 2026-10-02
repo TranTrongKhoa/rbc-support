@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RBC Control – Hỗ trợ / Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1d2230;
+    --muted: #5b6273;
+    --line: #dde1e8;
+    --bg: #f7f8fa;
+    --panel: #ffffff;
+    --accent: #13a88a;
+    --accent-soft: #e3f6f1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8eaf0;
+      --muted: #a2a8b6;
+      --line: #2c3140;
+      --bg: #15171e;
+      --panel: #1c1f28;
+      --accent: #5eebc8;
+      --accent-soft: #1d3a34;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 16px/1.6 "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    padding: env(safe-area-inset-top, 0) 0 env(safe-area-inset-bottom, 0);
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .logo {
+    width: 52px; height: 52px; border-radius: 12px; flex: none;
+    background: #23252d; display: grid; place-items: center;
+  }
+  h1 { font-size: 1.75rem; font-weight: 600; margin: 0; line-height: 1.2; }
+  .sub { color: var(--muted); margin: 2px 0 0; }
+  nav.lang { margin: 24px 0 32px; display: flex; gap: 8px; }
+  nav.lang a {
+    color: var(--ink); text-decoration: none; padding: 6px 14px;
+    border: 1px solid var(--line); border-radius: 999px; font-size: .9rem;
+  }
+  nav.lang a:hover, nav.lang a:focus-visible { border-color: var(--accent); outline: none; }
+  section { margin-bottom: 56px; }
+  h2 { font-size: 1.35rem; font-weight: 600; margin: 0 0 16px; }
+  h3 { font-size: 1.05rem; font-weight: 600; margin: 28px 0 8px; }
+  p, li { max-width: 68ch; }
+  ul { padding-left: 1.2em; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .contact {
+    background: var(--accent-soft); border-radius: 12px; padding: 18px 20px; margin: 24px 0;
+  }
+  .contact p { margin: 0; }
+  .contact a { color: var(--ink); font-weight: 600; }
+  details {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 16px; margin: 8px 0;
+  }
+  summary { cursor: pointer; font-weight: 500; }
+  summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+  details[open] summary { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .875rem; border-top: 1px solid var(--line); padding-top: 20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="logo" aria-hidden="true">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="5" y="4" width="14" height="9" rx="3"/><circle cx="9.5" cy="8.5" r="1" fill="#fff"/><circle cx="14.5" cy="8.5" r="1" fill="#fff"/>
+      <rect x="4" y="15" width="16" height="5" rx="2"/>
+    </svg>
+  </div>
+  <div>
+    <h1>RBC Control</h1>
+    <p class="sub">Hỗ trợ người dùng · User support</p>
+  </div>
+</header>
+
+<nav class="lang" aria-label="Ngôn ngữ / Language">
+  <a href="#vi">Tiếng Việt</a>
+  <a href="#en">English</a>
+</nav>
+
+<section id="vi" lang="vi">
+  <h2>Hỗ trợ</h2>
+  <p>RBC Control là ứng dụng điều khiển và giám sát thiết bị RBC từ xa. Ứng dụng hoạt động theo cặp: một máy gắn trên thiết bị (chế độ Device) và một máy của người điều hành (chế độ Viewer).</p>
+
+  <div class="contact">
+    <p>Cần hỗ trợ? Gửi email tới <a href="mailto:kiepphongba.kiss@gmail.com">kiepphongba.kiss@gmail.com</a>. Chúng tôi phản hồi trong vòng 2 ngày làm việc.</p>
+  </div>
+
+  <h3>Yêu cầu sử dụng</h3>
+  <ul>
+    <li>Thiết bị RBC tương thích.</li>
+    <li>Tài khoản do quản trị viên hệ thống cấp. Ứng dụng không hỗ trợ tự đăng ký.</li>
+    <li>iPhone chạy iOS bản mới, đã cấp quyền Camera, Micro và Bluetooth cho ứng dụng.</li>
+  </ul>
+
+  <h3>Câu hỏi thường gặp</h3>
+  <details>
+    <summary>Làm sao để có tài khoản?</summary>
+    <p>Liên hệ quản trị viên của tổ chức bạn hoặc đơn vị cung cấp thiết bị RBC để được cấp tài khoản.</p>
+  </details>
+  <details>
+    <summary>Ứng dụng không nhận camera USB</summary>
+    <p>Kiểm tra cáp và bộ chuyển đổi, rút ra cắm lại, sau đó bấm nút USB trên màn hình điều khiển. Camera cần hỗ trợ chuẩn UVC.</p>
+  </details>
+  <details>
+    <summary>Không kết nối được Bluetooth</summary>
+    <p>Bật Bluetooth trong Cài đặt, đảm bảo thiết bị RBC đã bật nguồn và ở gần điện thoại. Nếu vẫn lỗi, vào Cài đặt › Quyền riêng tư & Bảo mật › Bluetooth và bật quyền cho RBC Control.</p>
+  </details>
+  <details>
+    <summary>Video bị giật hoặc trễ</summary>
+    <p>Kiểm tra kết nối mạng của cả hai máy. Tắt chế độ HD trên màn hình điều khiển để giảm băng thông.</p>
+  </details>
+  <details>
+    <summary>Làm sao để xoá tài khoản và dữ liệu?</summary>
+    <p>Gửi yêu cầu tới email hỗ trợ ở trên hoặc liên hệ quản trị viên của bạn.</p>
+  </details>
+
+  <h3>Quyền riêng tư</h3>
+  <p>Xem <a href="privacy.html">Chính sách quyền riêng tư</a>.</p>
+</section>
+
+<section id="en" lang="en">
+  <h2>Support</h2>
+  <p>RBC Control lets you remotely control and monitor RBC devices. The app works in pairs: one phone mounted on the device (Device mode) and one phone used by the operator (Viewer mode).</p>
+
+  <div class="contact">
+    <p>Need help? Email <a href="mailto:kiepphongba.kiss@gmail.com">kiepphongba.kiss@gmail.com</a>. We reply within 2 business days.</p>
+  </div>
+
+  <h3>Requirements</h3>
+  <ul>
+    <li>A compatible RBC device.</li>
+    <li>An account issued by your system administrator. Self sign-up is not available.</li>
+    <li>An iPhone on a recent iOS version, with Camera, Microphone and Bluetooth access granted to the app.</li>
+  </ul>
+
+  <h3>Frequently asked questions</h3>
+  <details>
+    <summary>How do I get an account?</summary>
+    <p>Contact your organization's administrator or your RBC device provider.</p>
+  </details>
+  <details>
+    <summary>The USB camera isn't detected</summary>
+    <p>Check the cable and adapter, reconnect the camera, then tap the USB button on the control screen. The camera must support the UVC standard.</p>
+  </details>
+  <details>
+    <summary>Bluetooth won't connect</summary>
+    <p>Turn on Bluetooth in Settings and make sure the RBC device is powered on and nearby. If it still fails, go to Settings › Privacy & Security › Bluetooth and allow access for RBC Control.</p>
+  </details>
+  <details>
+    <summary>Video is laggy or delayed</summary>
+    <p>Check the network connection on both phones. Turn off HD mode on the control screen to reduce bandwidth.</p>
+  </details>
+  <details>
+    <summary>How do I delete my account and data?</summary>
+    <p>Send a request to the support email above or contact your administrator.</p>
+  </details>
+
+  <h3>Privacy</h3>
+  <p>See our <a href="privacy.html">Privacy Policy</a>.</p>
+</section>
+
+<footer>© 2026 Nguyen Hoang Xo. All rights reserved.</footer>
+
+</div>
+</body>
+</html>
